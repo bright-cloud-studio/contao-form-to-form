@@ -14,5 +14,5 @@
 /* Register the classes */
 ClassLoader::addClasses(array
 (
-  'Bcs\ContaoFormToForm' => 'system/modules/contao_form_to_form/library/Bcs/ContaoFormToForm.php',
+    'Bcs\ContaoFormToForm' => 'system/modules/contao_form_to_form/library/Bcs/ContaoFormToForm.php',
 ));
