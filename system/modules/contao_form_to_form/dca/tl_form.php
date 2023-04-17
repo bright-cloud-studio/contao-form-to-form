@@ -19,7 +19,7 @@ $GLOBALS['TL_DCA']['tl_form']['fields']['cftf_target'] = array
     'label'                     => &$GLOBALS['TL_LANG']['tl_form']['cftf_target'],
     'inputType'                 => 'select',
     'default'                   => '',
-    'options_callback'          => array('Bcs\Backend\ContaoFormToForm', 'getFormsAsSelectOptions'),
+    'options_callback'          => array('Bcs\Backend\ContaoFormToFormBackend', 'getFormsAsSelectOptions'),
     'eval'                      => array('includeBlankOption'=>false, 'mandatory'=>false, 'chosen'=>true, 'tl_class'=>'w50'),
     'sql'                       => "varchar(255) NOT NULL default ''"
 );
