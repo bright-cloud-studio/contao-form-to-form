@@ -7,7 +7,7 @@ This package was designed for a client who wanted one small form on their homepa
 ## Directions:
 For these directions assume we have two forms. Form A is our main form and Form B is our smaller lead-in form.
 
-1. On our lead-in form, add a "Hidden field" with the "Field name" set to "form_to_form_target" where the "Default value" is the ID of the form we want to send our values to.
+1. On our lead-in form, Form B, add a "Hidden field" with the "Field name" set to "form_to_form_target" where the "Default value" is the ID of the form we want to send our values to, Form A.
 
 ![Step One](https://raw.githubusercontent.com/bright-cloud-studio/contao-form-to-form/main/images/step_1.jpg)
 
