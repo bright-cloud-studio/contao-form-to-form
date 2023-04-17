@@ -16,10 +16,10 @@ $GLOBALS['TL_DCA']['tl_form']['palettes']['default'] = str_replace(';{expert_leg
 /* Add fields to tl_user */
 $GLOBALS['TL_DCA']['tl_form']['fields']['cftf_target'] = array
 (
-  'label'                     => &$GLOBALS['TL_LANG']['tl_form']['cftf_target'],
-  'inputType'                 => 'select',
-  'default'                   => '',
-  'options_callback'          => array('Bcs\Backend\ContaoFormToForm', 'getFormsAsSelectOptions'),
-  'eval'                      => array('includeBlankOption'=>false, 'mandatory'=>false, 'chosen'=>true, 'tl_class'=>'w50'),
-  'sql'                       => "varchar(255) NOT NULL default ''"
+    'label'                     => &$GLOBALS['TL_LANG']['tl_form']['cftf_target'],
+    'inputType'                 => 'select',
+    'default'                   => '',
+    'options_callback'          => array('Bcs\Backend\ContaoFormToForm', 'getFormsAsSelectOptions'),
+    'eval'                      => array('includeBlankOption'=>false, 'mandatory'=>false, 'chosen'=>true, 'tl_class'=>'w50'),
+    'sql'                       => "varchar(255) NOT NULL default ''"
 );
